@@ -1,0 +1,109 @@
+---
+layout: default
+---
+
+<!-- Page Header -->
+{% if page.background %}
+<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+  {% else %}
+  <header class="masthead">
+    {% endif %}
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>{{ site.title }}</h1>
+            {% if site.description %}
+            <span class="subheading">{{ site.description }}</span>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- {% include showcase.html %} -->
+<div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        {{ content }}
+
+        <article class="post-preview">
+          <a href="{{site.url}}{{ site.baseurl }}/profil-sekolah">
+            <h2 class="post-title">Profil Sekolah</h2>
+            <h3 class="post-subtitle">SMK Negeri 3 kota cimahi, Siap mejadi sekolah vokasional yang bersaing di kancah internasional.</h3>
+          </a>
+          <p class="post-meta">Di publikasi oleh
+            penulis
+            pada
+            06 February 2022          
+          </p>
+        </article>
+
+        <hr>
+
+        <article class="post-preview">
+          <a href="{{site.url}}{{ site.baseurl }}/profil-bk">
+            <h2 class="post-title">Profil BK</h2>
+            <h3 class="post-subtitle">Guru Bimbingan dan Konseling di SMK Negeri 3 Cimahi memiliki standart kualifikasi akademik sarjana pendidikan S1 BK dan Psikologi.</h3>
+          </a>
+          <p class="post-meta">Di publikasi oleh
+            penulis
+            pada
+            06 February 2022          
+          </p>
+        </article>
+
+        <hr>
+        <article class="post-preview">
+          <a href="{{site.url}}{{ site.baseurl }}/pribadi-sosial">
+            <h2 class="post-title">Bahaya Seks Bebas</h2>
+            <h3 class="post-subtitle">Perilaku menyimpang dalam pergaulan bebas sangat mengkhawatirkan, terutama bagi remaja. Usia remaja adalah usia dimana seseorang akan mengalami masa pubertas dan keingintahuan tentang segala hal. Termasuk ingin tahu mengenai kehidupan seksual.</h3>
+          </a>
+          <p class="post-meta">Di publikasi oleh
+            penulis
+            pada
+            06 February 2022          
+          </p>
+        </article>
+
+        <hr>
+
+        <article class="post-preview">
+          <a href="{{site.url}}{{ site.baseurl }}/prestasi">
+            <h2 class="post-title">Prestasi Siswa</h2>
+            <h3 class="post-subtitle">Shafira Rizki Amanda marketing Amped Trampolin Indonesia Mall Paskal 23 Kota Bandung, merupakan alumni dari SMKN 3 Kota Cimahi jurusan fashion design (tata busana) tahun 2017.</h3>
+          </a>
+          <p class="post-meta">Di publikasi oleh
+            penulis
+            pada
+            06 February 2022          
+          </p>
+        </article>
+
+        <hr>
+
+        <article class="post-preview">
+          <a href="{{site.url}}{{ site.baseurl }}/dokumentasi">
+            <h2 class="post-title">Dokumentasi Kegiatan</h2>
+            <h3 class="post-subtitle">Dokumentasi kegiatan pemberian layanan bimbingan dan konseling</h3>
+          </a>
+          <p class="post-meta">Di publikasi oleh
+            penulis
+            pada
+            06 February 2022          
+          </p>
+        </article>
+
+        <hr>
+
+        <!-- Pager -->
+        <!-- <div class="clearfix"> -->
+        <!--   <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">View All Posts &rarr;</a> -->
+        <!-- </div> -->
+
+      </div>
+    </div>
+  </div>
